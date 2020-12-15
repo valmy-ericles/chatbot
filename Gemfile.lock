@@ -1,0 +1,74 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activemodel (6.1.0)
+      activesupport (= 6.1.0)
+    activerecord (6.1.0)
+      activemodel (= 6.1.0)
+      activesupport (= 6.1.0)
+    activesupport (6.1.0)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
+    arel (9.0.0)
+    bond (0.5.1)
+    concurrent-ruby (1.1.7)
+    i18n (1.8.5)
+      concurrent-ruby (~> 1.0)
+    minitest (5.14.2)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    pg (1.2.3)
+    pg_search (2.0.1)
+      activerecord (>= 4.2)
+      activesupport (>= 4.2)
+      arel (>= 6)
+    rack (2.2.3)
+    rack-protection (2.1.0)
+      rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rake (13.0.1)
+    ripl (0.7.1)
+      bond (~> 0.5.1)
+    ripl-multi_line (0.3.1)
+      ripl (>= 0.3.6)
+    ripl-rack (0.2.1)
+      rack (>= 1.0)
+      rack-test (~> 0.6.2)
+      ripl (>= 0.7.0)
+    ruby2_keywords (0.0.2)
+    sinatra (2.1.0)
+      mustermann (~> 1.0)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
+      tilt (~> 2.0)
+    sinatra-activerecord (2.0.21)
+      activerecord (>= 4.1)
+      sinatra (>= 1.0)
+    tilt (2.0.10)
+    tux (0.3.0)
+      ripl (>= 0.3.5)
+      ripl-multi_line (>= 0.2.4)
+      ripl-rack (>= 0.2.0)
+      sinatra (>= 1.2.1)
+    tzinfo (2.0.3)
+      concurrent-ruby (~> 1.0)
+    zeitwerk (2.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord
+  pg
+  pg_search (~> 2.0.1)
+  rake
+  sinatra
+  sinatra-activerecord
+  tux
+
+BUNDLED WITH
+   2.1.4
