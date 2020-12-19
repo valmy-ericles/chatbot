@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Hashtag < ActiveRecord::Base
   validates :name, presence: true
 

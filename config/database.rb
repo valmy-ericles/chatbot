@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 configure :test do
   set :database, {
     adapter: 'postgresql',

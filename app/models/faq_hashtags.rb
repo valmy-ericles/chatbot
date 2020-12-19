@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class FaqHashtags < ActiveRecord::Base
   belongs_to :faq
   belongs_to :hashtag
